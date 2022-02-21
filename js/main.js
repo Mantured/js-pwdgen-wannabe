@@ -16,7 +16,6 @@ const favoriteColor = prompt('Colore preferito?');
 console.log(favoriteColor);
 document.getElementById('favoritecolor').innerHTML = favoriteColor;
 
-
-const passWord = `${firstName}${lastName}${favoriteColor}${age}`;
+const passWord = `${firstName}${lastName}${favoriteColor}${age}`
 console.log(passWord);
-document.getElementById('password').innerHTML = passWord;
+document.getElementById('password').innerHTML = `Ciao boomer questa è la tua password monouso (si spera) \: ${passWord}`;
